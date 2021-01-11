@@ -1,0 +1,16 @@
+ @ Root folder 
+ composer global require laravel/installer
+ composer create-project --prefer-dist laravel/laravel lara-app "6.*"
+
+Open VS code @ lara-app
+
+git init 
+git add .
+git commit -m  “larval 6 default”
+
+git remote add origin https://github.com/issarapong/lara-app.git
+git branch -M main
+git push -u origin main
+
+
+Verify
