@@ -14,3 +14,8 @@ git push -u origin main
 
 
 Verify remote git
+
+if you see after git remote add origin https://github.com/issarapong/lara-app.git
+
+ “fatal: remote cheese already exists.”
+ git remote remove origin
