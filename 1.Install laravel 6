@@ -1,8 +1,8 @@
- @ Root folder 
+1 Browse to Root folder 
  composer global require laravel/installer
  composer create-project --prefer-dist laravel/laravel lara-app "6.*"
 
-Open VS code @ lara-app
+2 Open VS code @ lara-app folder
 
 git init 
 git add .
@@ -13,4 +13,4 @@ git branch -M main
 git push -u origin main
 
 
-Verify
+Verify remote git
